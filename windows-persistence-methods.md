@@ -21,7 +21,7 @@ The Windows registry includes the following four `Run` and `RunOnce` keys:
 
 &nbsp;
 
-Source: https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys
+Source: <https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys>
 
 &nbsp;
 
