@@ -1,5 +1,5 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
-title: Digital Forensics and Incident Response: Investigation Handbook
-description: The intent behind this blog is to guide those who wish to defend networks and endpoints but lack the knowledge to do so.
+title: "Digital Forensics and Incident Response: Investigation Handbook"
+description: "The intent behind this blog is to guide those who wish to defend networks and endpoints but lack the knowledge to do so."
