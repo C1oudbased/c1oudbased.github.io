@@ -31,8 +31,9 @@ kbd {
 
 /* This targets the inline backtick highlights */
 code {
-    background-color: #e0f2fe !important; /* A very light blue */
-    color: #0369a1 !important;            /* A darker blue for the text contrast */
-    padding: 2px 4px;                    /* Adds a little breathing room around the text */
-    border-radius: 4px;                  /* Rounds the corners slightly */
+    background-color: #1e293b !important; /* Deep Navy (Slate 800) */
+    color: #38bdf8 !important;            /* Bright Sky Blue text */
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: 1px solid #334155;            /* Subtle border to define the edges */
 }
