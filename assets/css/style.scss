@@ -1,17 +1,30 @@
 ---
 ---
 
-// This imports all the default Hacker theme styles first
 @import "{{ site.theme }}";
 
-// These are your overrides.
-// We are re-defining the variables the theme uses for green.
+// Hacker Theme Specific Overrides
+// Use !important to ensure these override the theme's internal defaults
 
-// We will make the dark background blue, the primary border blue,
-// and the hover state a lighter blue.
+$primary-color: #3498db; // The bright blue for titles
+$secondary-color: #2980b9; // The blue for the border/line
 
-// Feel free to swap these hex codes for your preferred blues!
-$body-background: #000c1d !default; // A very dark navy blue
-$section-background: #000c1d !default;
-$primary-color: #3498db !default;   // A clean "GitHub" or "DFIR" blue
-$secondary-color: #2980b9 !default; // A darker accent blue
+header {
+  border-bottom: none !important; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3498db !important; // Forces titles to blue
+}
+
+.title-line {
+  background-color: #2980b9 !important; // Changes that horizontal dashed line
+}
+
+a {
+  color: #3498db !important; // Changes link colors
+}
+
+kbd {
+  border-color: #3498db !important;
+}
