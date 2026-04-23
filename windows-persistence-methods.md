@@ -34,5 +34,6 @@ The Windows registry includes the following four `Run` and `RunOnce` keys:
 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Run','HKLM:\Software\Microsoft\Windows\CurrentVersion\RunOnce','HKCU:\Software\Microsoft\Windows\CurrentVersion\Run','HKCU:\Software\Microsoft\Windows\CurrentVersion\RunOnce' | Get-ItemProperty | Select-Object * -ExcludeProperty PS* | Format-List
 ```
 
+&nbsp;
 
 You may need to run this in an administrative PowerShell window, but this will tell you the content of the 4 registry Run Keys. This will help you determine, at a glance, whether or not any currently set Run keys link to suspicious paths/executables that shouldn't be there.
