@@ -28,3 +28,11 @@ a {
 kbd {
   border-color: #3498db !important;
 }
+
+/* This targets the inline backtick highlights */
+code {
+    background-color: #e0f2fe !important; /* A very light blue */
+    color: #0369a1 !important;            /* A darker blue for the text contrast */
+    padding: 2px 4px;                    /* Adds a little breathing room around the text */
+    border-radius: 4px;                  /* Rounds the corners slightly */
+}
