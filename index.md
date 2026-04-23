@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-# Hello World
-This is my first post.
+# Windows Investigation Guides
+[Windows Persistence Methods](./windows-persistence-methods.md)
