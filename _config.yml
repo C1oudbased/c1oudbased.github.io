@@ -2,4 +2,4 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
 title: C1oud's blog on defense oriented cybersecurity
-description: Bookmark this to keep an eye on my project updates!
+description: The intent behind this blog is to guide those who wish to defend networks and endpoints but lack the knowledge to do so.
