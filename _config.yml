@@ -1,4 +1,3 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins: jekyll-remote-theme 
+theme: pages-themes/hacker@v0.2.0
 title: C1oud's blog on defense oriented cybersecurity
 description: Bookmark this to keep an eye on my project updates!
