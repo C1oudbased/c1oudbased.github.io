@@ -46,9 +46,9 @@ Investigations are a series of questions and answers. Our job as analysts is to 
 
 We've picked up an alert for suspicious applications being observed in M365 login attempts. The alert details are as follows:
 
-```
-This alert triggers when a successful login or login failure indicates successful credentials to the Office 365 application where the application contains MicrosoftO365, python-aiohttp or .net clr 3.5.30729; tablet PC 2.0. This IOC indicates an Adversary-in-the-Middle session compromise, where the user receives an email with an attachment in the form of a QR code, which ensures the user scans the QR code on an unmanaged asset. The user's browser history should be investigated to check if the potentially compromised user downloaded or viewed an attachment with a QR Code during the time around the UserLoggedIn/UserLoginFailed operation in the M365 Unified Audit Logs.
-```
+
+>This alert triggers when a successful login or login failure indicates successful credentials to the Office 365 application where the application contains >MicrosoftO365, python-aiohttp or .net clr 3.5.30729; tablet PC 2.0. This IOC indicates an Adversary-in-the-Middle session compromise, where the user receives an >email with an attachment in the form of a QR code, which ensures the user scans the QR code on an unmanaged asset. The user's browser history should be >investigated to check if the potentially compromised user downloaded or viewed an attachment with a QR Code during the time around the >UserLoggedIn/UserLoginFailed operation in the M365 Unified Audit Logs.
+
 
 This is a real alert from the wide variety of alerts that M365 has. The alert details will continue the answers we need. Now let's start asking some important questions. The client will have these questions as well, so it's our job to get them answered. 
 
