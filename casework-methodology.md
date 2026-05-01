@@ -1,3 +1,4 @@
+## Case Methodology
 For the purpose of this guide the terms cases and alerts are to be used interchangeably. When it comes to digital forensics and incident response as a role, I find it easier to frame things using criminology terms. Cybersecurity is as complex as any other advanced field, so it helps to break things down using metaphors and other descriptive language. Our job as an Analyst means we're in the business of problem solving and question answering cybersecurity concerns.
 
 Analysts are presented with work in one of two manners:
