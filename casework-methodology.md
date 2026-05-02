@@ -28,7 +28,7 @@ These alerts can range from anything to "A firewall rule was changed" to "A user
 These alerts contain the most variety and normally require human validation. Alert types range from Behavioral detections like a binary reaching out to a remote IP address to other detections that require a closer look like .DLL sideloading.  If we put this alert severity in terms of odds, we have about a 50% chance of the alert being True Positive or False Positive. 
 
 #### High:
-High severity alerts are alerts that are strong indicators of compromise. Alert types range from an M365 (Microsoft 365) session containing a known malicious user-agent header was observed to Domain Trust Enumeration events like the `nltest /domain_trusts` command. <https://attack.mitre.org/software/S0359/>. This alert severity can be understood as having a 75% to 85% chance of being performed in a malicious context. 
+High severity alerts are alerts that are strong indicators of compromise. Alert types range from an M365 (Microsoft 365) session containing a known malicious user-agent header was observed to Domain Trust Enumeration events like the `nltest /domain_trusts` command. [NLTEST](https://attack.mitre.org/software/S0359/). This alert severity can be understood as having a 75% to 85% chance of being performed in a malicious context. 
 
 #### Critical: 
 Critical alerts are alerts with an almost guaranteed indicator of malicious intent. Alert types range from observing the `LSASS` process having its memory dumped for credential harvesting to the theft of the DPAPI Backup Key. This alert severity can be interpreted as having a 90% to 99% likelihood of malicious context. Critical cases often become full-blown incidents that require special handling.
