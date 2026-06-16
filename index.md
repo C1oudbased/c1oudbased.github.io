@@ -8,3 +8,6 @@ layout: default
 
 ## Casework Methodology
 [Casework Methodology](./casework-methodology.md)
+
+## Investigative Techniques and Data Manipulation
+[Investigative Techniques and Data Manipulation](./investigation-techniques-and-data-manipulation.md)
